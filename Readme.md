@@ -8,14 +8,20 @@ The Mandelbrot set has become popular outside mathematics both for its aesthetic
 
 ## Usage
 
-```
-1.	$ nasm -f win32 mandelbrot.asm
-```
+1.
 
 ```
-2.	$ nlink mandelbrot.obj -lio -lmio -lgfx -o mandelbrot.exe
+nasm -f win32 mandelbrot.asm
 ```
 
+2.
+
 ```
-3.	$ ./mandelbrot.exe
+nlink mandelbrot.obj -lio -lmio -lgfx -o mandelbrot.exe
+```
+
+3.
+
+```
+./mandelbrot.exe
 ```
