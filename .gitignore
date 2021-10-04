@@ -1,0 +1,8 @@
+#Ignore
+*.obj
+
+# Allow
+!start.obj
+!nasm.exe
+!nlink.exe
+
